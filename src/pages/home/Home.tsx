@@ -1,4 +1,4 @@
-import { BarChartBox, ChartBox, TopBox } from "@/components";
+import { BarChartBox, ChartBox, PieChartBox, TopBox } from "@/components";
 import "./home.scss";
 import {
 	chartBoxUser,
@@ -21,7 +21,9 @@ export const Home = () => {
 			<div className="box box3">
 				<ChartBox {...chartBoxProduct} />
 			</div>
-			<div className="box box4">Box 4</div>
+			<div className="box box4">
+				<PieChartBox />
+			</div>
 			<div className="box box5">
 				<ChartBox {...chartBoxConversion} />
 			</div>
