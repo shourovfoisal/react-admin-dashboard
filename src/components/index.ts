@@ -3,3 +3,4 @@ export { Menu } from "./menu/menu.component";
 export { Footer } from "./footer/footer.component";
 export { TopBox } from "./topBox/TopBox";
 export { ChartBox } from "./chartBox/ChartBox";
+export { BarChartBox } from "./barChartBox/BarChartBox";
